@@ -1,5 +1,4 @@
-#fondo {
-    margin: 0;
+.fondo {
     position: fixed;
     min-width: 100%;
     min-height: 100%;
@@ -7,7 +6,34 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
-} 
+}
+
+
+.vid {
+    color: beige;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    padding: 10px 0px;
+    height: 25px;
+    width: 300px;
+    border-width: 4.4px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 40px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
 
 body {
     margin-block:0px;
