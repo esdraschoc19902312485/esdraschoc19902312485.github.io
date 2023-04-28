@@ -1,0 +1,172 @@
+#fondo {
+    margin: 0;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+} 
+
+body {
+    margin-block:0px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+body, a:hover {
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress;
+}
+
+
+
+
+button {
+    border: none;
+    background: #000000;
+    color: #00EBFA;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+
+    cursor: pointer;
+}
+ 
+button:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 42px;
+    background: rgba(225,255,255,0.5);  
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+.canal {
+    float:right;
+}
+
+
+ 
+button:hover:before{
+right: 200%;
+left: 10%
+}
+
+
+img {
+    float: left;
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+}
+
+
+img {
+    margin: 10px;
+    border: 5px solid #eee;
+    -webkit-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+   img:hover {
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg)
+    }
+
+
+
+
+.compu:hover {
+        transform: scale(2);
+        -moz-transform: scale(2);
+        -webkit-transform: scale(2);
+        -o-transform: scale(2);
+        -ms-transform: scale(2);
+    }
+
+
+
+
+
+
+.wrap {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.tarjeta {
+    width: 350px;
+    height: 200px;
+    background: #127EA9;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.adelante, .atras {
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.adelante {
+    width: 100%;
+}
+
+.atras {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-family: "open sans";
+}
+
+.tarjeta-wrap:hover .tarjeta {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card1 {
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    border: 5px solid #eee;
+    -webkit-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
